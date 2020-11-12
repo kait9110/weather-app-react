@@ -3,7 +3,7 @@ import React from "react";
 import Search from "./search.js";
 import City from "./city.js";
 import Time from "./time.js";
-import WeatherDescription from "./weatherDescription.js";
+import WeatherDescription from "./weatherdescription.js";
 import Temperature from "./temperature.js";
 import Image from "./image.js";
 import Footer from "./footer.js";
@@ -16,6 +16,7 @@ export default function App() {
       <City />
       <Time />
       <WeatherDescription />
+      <Image />
       <Temperature />
       <Footer />
     </div>
