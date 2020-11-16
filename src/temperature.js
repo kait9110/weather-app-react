@@ -6,9 +6,6 @@ export default function Temperature() {
   return (
     <Grid divided="vertically">
       <Grid>
-        <Image />
-      </Grid>
-      <Grid>
         <span className="temperature" id="temperature">
           95
         </span>
